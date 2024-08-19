@@ -447,3 +447,22 @@ hr {
 .nav-active {
   transform: translatex(0%);
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    zoom: 0.75; /* This effectively reduces the size of elements */
+  }
+
+  /* Adjustments for specific elements */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Additional mobile-specific styles */
+  .header,
+  .footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
